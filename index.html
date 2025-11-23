@@ -1,1 +1,125 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Salintip</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #ffffff;
+            padding: 20px;
+            text-align: center;
+            font-size: 32px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background: #fff;
+            padding: 10px;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .section {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .section h2 {
+            margin-top: 0;
+            font-size: 28px;
+            border-left: 5px solid #555;
+            padding-left: 10px;
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            row-gap: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            background: #fff;
+            border-top: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
 
+<header>PORTFOLIO</header>
+
+<nav>
+    <a href="#about">ข้อมูลส่วนตัว</a>
+    <a href="#education">การศึกษา</a>
+    <a href="#hobby">งานอดิเรก</a>
+    <a href="#skill">ความสามารถพิเศษ</a>
+    <a href="#contact">ข้อมูลติดต่อ</a>
+</nav>
+
+<section class="section" id="about">
+    <h2>ข้อมูลส่วนตัว</h2>
+    <div style="text-align:center; margin-bottom:20px;">
+        <img src="images/SLT.jpg" alt="profile image" style="width:180px; border-radius:10px;" />
+    </div>
+    <div class="info-grid">
+        <div>ชื่อ: นางสาว สลิลทิพย์ ดอกนางแย้ม</div>
+        <div>ชื่อเล่น: ยีน</div>
+        <div>อายุ: 19 ปี</div>
+        <div>เกิดวันที่: 27 ธันวาคม 2548</div>
+    </div>
+</section>
+
+<section class="section" id="education">
+    <h2>ข้อมูลการศึกษา</h2>
+    <p>มัธยมต้นศึกษาอยู่ที่: โรงเรียนปงรัชดาภิเษก</p>
+    <p>มัธยมปลายศึกษาอยู่ที่: โรงเรียนหอพระ</p>
+    <p>ปัจจุบันกำลังศึกษาอยู่ที่: คณะ ICT สาขาวิทยาการคอมพิวเตอร์ มหาวิทยาลัยพะเยา</p>
+</section>
+
+<section class="section" id="hobby">
+    <h2>งานอดิเรก</h2>
+    <ul>
+        <li>เล่นเกม</li>
+        <li>ฟังเพลง</li>
+        <li>วาดรูป</li>
+    </ul>
+</section>
+
+<section class="section" id="skill">
+    <h2>ความสามารถพิเศษ</h2>
+    <ul>
+        <li>เล่นเกม</li>
+        <li>วาดรูป</li>
+    </ul>
+</section>
+
+<section class="section" id="contact">
+    <h2>ข้อมูลการติดต่อ</h2>
+    <p>Tel: 0956842803</p>
+    <p>Email: jeansalintip2141@gmail.com</p>
+    <p>Facebook: Salinitp Doknangyam</p>
+</section>
+
+<footer>
+    © 2025 Salintip Portfolio
+</footer>
+
+</body>
+</html>
